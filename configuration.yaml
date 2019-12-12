@@ -1,0 +1,50 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+homeassistant:
+  auth_providers:
+   - type: legacy_api_password
+     api_password: 123help
+http:
+  #api_password: 
+  #trusted_networks:
+    #- 127.0.0.1
+    #- 192.168.1.1/24
+  base_url: https://www.invincible.net.cn:18123
+  server_port: 8123
+  ssl_certificate: /ssl/ssl.pem
+  ssl_key: /ssl/ssl.key
+  
+# Text to speech
+tts:
+  - platform: google_translate
+  
+
+mccree: 
+  name: 名称
+  #slogon: 
+
+sensor:
+  - platform: rest
+    name: 51forecastStation
+    resource: https://wxms.wxbus.com.cn/BusService/Query_CrowdBySegmentID?SegmentID=-33485204&Longitude=120.353759765625&Latitude=31.540332794189453
+    value_template: '{{ value_json["items"][6]["forecastStation"] }}'
+    unit_of_measurement: "站"
+  - platform: rest
+    name: 51crowdToNext
+    resource: https://wxms.wxbus.com.cn/BusService/Query_CrowdBySegmentID?SegmentID=-33485204&Longitude=120.353759765625&Latitude=31.540332794189453
+    value_template: >
+      {% if value_json["items"][5]["crowdToNext"] == 0 %}畅通
+      {% elif value_json["items"][5]["crowdToNext"] == 1 %}拥堵
+      {% elif value_json["items"][5]["crowdToNext"] == 2 %}超级拥堵
+      {% else %}无路况信息
+      {% endif %}
+  - platform: wxbus
+    longitude: 120.353759765625
+    latitude: 31.540332794189453
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml

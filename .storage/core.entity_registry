@@ -1,0 +1,251 @@
+{
+    "data": {
+        "entities": [
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "binary_sensor.updater",
+                "name": null,
+                "platform": "updater",
+                "unique_id": "updater"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "person.mccree",
+                "name": null,
+                "platform": "person",
+                "unique_id": "ab37d1927cfe437a9e595c5e9d491572"
+            },
+            {
+                "config_entry_id": "57870ff21cc540959c8ef6dd7dc42569",
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "weather.jia",
+                "name": null,
+                "platform": "met",
+                "unique_id": "home"
+            },
+            {
+                "config_entry_id": "475f927b20024cfd9de9cd8cfeeed6c5",
+                "device_id": "d7390df12d97493a830cb6df44c9a4a8",
+                "disabled_by": null,
+                "entity_id": "sensor.openwrt_router_packets_sent",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:b6b5874d-bbfb-4b84-a1f2-d07c23976ddd_packets_sent"
+            },
+            {
+                "config_entry_id": "475f927b20024cfd9de9cd8cfeeed6c5",
+                "device_id": "d7390df12d97493a830cb6df44c9a4a8",
+                "disabled_by": null,
+                "entity_id": "sensor.openwrt_router_packets_sec_received",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:b6b5874d-bbfb-4b84-a1f2-d07c23976ddd_packets/sec_received"
+            },
+            {
+                "config_entry_id": "475f927b20024cfd9de9cd8cfeeed6c5",
+                "device_id": "d7390df12d97493a830cb6df44c9a4a8",
+                "disabled_by": null,
+                "entity_id": "sensor.openwrt_router_bytes_received",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:b6b5874d-bbfb-4b84-a1f2-d07c23976ddd_bytes_received"
+            },
+            {
+                "config_entry_id": "475f927b20024cfd9de9cd8cfeeed6c5",
+                "device_id": "d7390df12d97493a830cb6df44c9a4a8",
+                "disabled_by": null,
+                "entity_id": "sensor.openwrt_router_packets_received",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:b6b5874d-bbfb-4b84-a1f2-d07c23976ddd_packets_received"
+            },
+            {
+                "config_entry_id": "475f927b20024cfd9de9cd8cfeeed6c5",
+                "device_id": "d7390df12d97493a830cb6df44c9a4a8",
+                "disabled_by": null,
+                "entity_id": "sensor.openwrt_router_kbyte_sec_received",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:b6b5874d-bbfb-4b84-a1f2-d07c23976ddd_kbyte/sec_received"
+            },
+            {
+                "config_entry_id": "475f927b20024cfd9de9cd8cfeeed6c5",
+                "device_id": "d7390df12d97493a830cb6df44c9a4a8",
+                "disabled_by": null,
+                "entity_id": "sensor.openwrt_router_packets_sec_sent",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:b6b5874d-bbfb-4b84-a1f2-d07c23976ddd_packets/sec_sent"
+            },
+            {
+                "config_entry_id": "475f927b20024cfd9de9cd8cfeeed6c5",
+                "device_id": "d7390df12d97493a830cb6df44c9a4a8",
+                "disabled_by": null,
+                "entity_id": "sensor.openwrt_router_bytes_sent",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:b6b5874d-bbfb-4b84-a1f2-d07c23976ddd_bytes_sent"
+            },
+            {
+                "config_entry_id": "475f927b20024cfd9de9cd8cfeeed6c5",
+                "device_id": "d7390df12d97493a830cb6df44c9a4a8",
+                "disabled_by": null,
+                "entity_id": "sensor.openwrt_router_kbyte_sec_sent",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:b6b5874d-bbfb-4b84-a1f2-d07c23976ddd_kbyte/sec_sent"
+            },
+            {
+                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
+                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "disabled_by": null,
+                "entity_id": "device_tracker.chen_qin_yun_de_iphone",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "93433857a9964d148425a7a9a1ffa642"
+            },
+            {
+                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
+                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "disabled_by": null,
+                "entity_id": "sensor.activity",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_activity"
+            },
+            {
+                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
+                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "disabled_by": null,
+                "entity_id": "sensor.battery_level",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_battery_level"
+            },
+            {
+                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
+                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "disabled_by": null,
+                "entity_id": "sensor.battery_state",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_battery_state"
+            },
+            {
+                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
+                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "disabled_by": null,
+                "entity_id": "sensor.average_active_pace",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_pedometer_avg_active_pace"
+            },
+            {
+                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
+                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "disabled_by": null,
+                "entity_id": "sensor.distance",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_pedometer_distance"
+            },
+            {
+                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
+                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "disabled_by": null,
+                "entity_id": "sensor.floors_ascended",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_pedometer_floors_ascended"
+            },
+            {
+                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
+                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "disabled_by": null,
+                "entity_id": "sensor.floors_descended",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_pedometer_floors_descended"
+            },
+            {
+                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
+                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "disabled_by": null,
+                "entity_id": "sensor.steps",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_pedometer_steps"
+            },
+            {
+                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
+                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "disabled_by": null,
+                "entity_id": "sensor.bssid",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_connectivity_bssid"
+            },
+            {
+                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
+                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "disabled_by": null,
+                "entity_id": "sensor.connection_type",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_connectivity_connection_type"
+            },
+            {
+                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
+                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "disabled_by": null,
+                "entity_id": "sensor.ssid",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_connectivity_ssid"
+            },
+            {
+                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
+                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "disabled_by": null,
+                "entity_id": "sensor.sim_2",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_connectivity_sim_2"
+            },
+            {
+                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
+                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "disabled_by": null,
+                "entity_id": "sensor.sim_1",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_connectivity_sim_1"
+            },
+            {
+                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
+                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "disabled_by": null,
+                "entity_id": "sensor.last_update_trigger",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_last_update_trigger"
+            },
+            {
+                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
+                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "disabled_by": null,
+                "entity_id": "sensor.geocoded_location",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_geocoded_location"
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
+}

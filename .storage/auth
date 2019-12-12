@@ -1,0 +1,180 @@
+{
+    "data": {
+        "credentials": [
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "mccree"
+                },
+                "id": "3d133f0bf38645d4adff88c09b907b6d",
+                "user_id": "31c31827823f41d49983cd318d3d3580"
+            },
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "legacy_api_password",
+                "data": {},
+                "id": "375e87273b6b4a029044bf8cfd534a81",
+                "user_id": "4da3642ce6364fdd9373ecc98d57571d"
+            }
+        ],
+        "groups": [
+            {
+                "id": "system-admin",
+                "name": "Administrators"
+            },
+            {
+                "id": "system-users",
+                "name": "Users"
+            },
+            {
+                "id": "system-read-only",
+                "name": "Read Only"
+            }
+        ],
+        "refresh_tokens": [
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": null,
+                "client_name": null,
+                "created_at": "2019-11-08T12:55:35.991177+00:00",
+                "id": "4ffea28a3bd2464287435d174e084802",
+                "jwt_key": "df67054fe1bee4f3e92d88af9342efec2bb083add86a8b9a90e5b72481516683cda5b7866d864fd904e391be9e864580aedaadd40e0f02c5b40bb5fe49c99bce",
+                "last_used_at": null,
+                "last_used_ip": null,
+                "token": "9b553ed88df62880ddf2f675c7ef9ef5f39bdb63a929ac523164d82f9ea3dcb356bdb7b4e2642bbee153084a9455dee9eb71e78747f515afb8d1ed3dd97773db",
+                "token_type": "system",
+                "user_id": "1da7215e2be740e6912e247cccfafb83"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://www.invincible.net.cn:18123/",
+                "client_name": null,
+                "created_at": "2019-11-28T00:27:31.444193+00:00",
+                "id": "64702fabedd2467c8f9afbc7dafd6142",
+                "jwt_key": "c9044831898e9324934e9e746557a99f0e0490ec4333ea8afd77898dce4059d2a52d7da51a8eb47233241f85be4ddcc4a55e0fa0254875f14f0f73499519db04",
+                "last_used_at": "2019-11-28T00:27:31.444294+00:00",
+                "last_used_ip": "49.78.106.95",
+                "token": "8b2ca92217f3d4e9d369817399d5b2a3565ab1ec1b105076525359bd38e22e2cc00082118e733db8603d00b22f61b3bed2ad0b21d76a911081741308aaf945b6",
+                "token_type": "normal",
+                "user_id": "31c31827823f41d49983cd318d3d3580"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://www.invincible.net.cn:18123/",
+                "client_name": null,
+                "created_at": "2019-11-28T01:43:56.482646+00:00",
+                "id": "a4a8b91553354995856d21713ff7dc58",
+                "jwt_key": "e9f14f706dcb6383b183b70b22bd76a111a6efa02901d0327a4649cb0adb3c9a08fc191464468e8c6b56261821d1fb6f161c810138ad75c70b041d70be6e5a54",
+                "last_used_at": "2019-12-12T12:02:44.965019+00:00",
+                "last_used_ip": "219.140.69.166",
+                "token": "c94261fcbbf25d08916580ff8b6ccc77ca8f7c622451ad5ea85e8749dc0a50e92afcb18830625ae1f2b713246382bc6392a00370a4558179b2841e4edd8c66f2",
+                "token_type": "normal",
+                "user_id": "4da3642ce6364fdd9373ecc98d57571d"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://home-assistant.io/iOS",
+                "client_name": null,
+                "created_at": "2019-11-28T10:57:17.066964+00:00",
+                "id": "fb6e46bd13cd4e09b7151d24b32807ac",
+                "jwt_key": "1f28b274bfce74f35e405dbb85917508d4b1c5189c6406105ee7909b69e4b580f5b6a213a99b3904ac65bec1b5db1ad96b896247e65eeaec4aadb5e2de2b4dc0",
+                "last_used_at": "2019-12-12T00:23:02.524314+00:00",
+                "last_used_ip": "119.103.136.90",
+                "token": "3e5bb94f2bb53ec0522e68fd9c7a03805152ddf4b2579a6f72e2bb5ef09f3d6969fc7fc1cef560857abe0bd941bee5dc3ce1065355973236c2289dc70236d6d4",
+                "token_type": "normal",
+                "user_id": "4da3642ce6364fdd9373ecc98d57571d"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://www.invincible.net.cn:18123/",
+                "client_name": null,
+                "created_at": "2019-11-28T10:59:21.210942+00:00",
+                "id": "4a67c6c5c53e4e80a0ad0f6cbe987704",
+                "jwt_key": "bfd8a49d6a845c132ab7b6c8959fcc1232a9db892bd54383fd04b679c30fa41f4748e36f1bc1cdd086fb6a77a8f97db9b79cdc881874f6693dd08ab80c6c5556",
+                "last_used_at": "2019-11-28T14:48:12.092889+00:00",
+                "last_used_ip": "192.168.2.1",
+                "token": "ac977c704b0f6ea167517231de98b6377a830de873983c2eceacf80006d5cd887dcc79e61b10a9ad1521012d5028aae185dcf141afeb59a5f5c4f9b3e7748e35",
+                "token_type": "normal",
+                "user_id": "4da3642ce6364fdd9373ecc98d57571d"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://www.invincible.net.cn:18123/",
+                "client_name": null,
+                "created_at": "2019-12-05T15:07:40.262902+00:00",
+                "id": "d6e642546da7495aa101e0f7b7e6e49d",
+                "jwt_key": "f658665a5a61403e2fd155c07d46988750d4afb208b485b1267d9da08c2d391833581e24f0b0675c38ead0f5d2d9e0b90b0f7c11b9bc5b58460f7c57881cca42",
+                "last_used_at": "2019-12-05T15:07:40.263007+00:00",
+                "last_used_ip": "59.174.152.172",
+                "token": "bcf7175485cbbc402ddbe80d34208d21e551ba2dbb95fc36e9799145f0053bf48157f863a699c5dbf5a9f0608f9a1981afdc986a1d47af53333377a2864b7787",
+                "token_type": "normal",
+                "user_id": "4da3642ce6364fdd9373ecc98d57571d"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://www.invincible.net.cn:18123/",
+                "client_name": null,
+                "created_at": "2019-12-09T16:01:45.407029+00:00",
+                "id": "a1a42bedfc55428eaed041a5e4073e76",
+                "jwt_key": "de848eed64c173ce43bf514ca836386892441435ee0d9806072c77235c3331d07a55009ff7a03e919171f7bfac31d1a74469fa8e0eb417cc73d71d43c75ccb38",
+                "last_used_at": "2019-12-09T16:01:45.407168+00:00",
+                "last_used_ip": "59.174.152.106",
+                "token": "0b86677153840f2d7ce5750beb429bc881d2a89bcacc540cc96950d686fd3778f0a7383cac2e7bd713cf9c038a06c9862f3cc1245de8bbe4f242e77d07e464c5",
+                "token_type": "normal",
+                "user_id": "4da3642ce6364fdd9373ecc98d57571d"
+            }
+        ],
+        "users": [
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "c6aaf29e9a7b4b618983bc523ca6c6c5",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Home Assistant Cloud",
+                "system_generated": true
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "1da7215e2be740e6912e247cccfafb83",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Hass.io",
+                "system_generated": true
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "31c31827823f41d49983cd318d3d3580",
+                "is_active": true,
+                "is_owner": true,
+                "name": "mccree",
+                "system_generated": false
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "4da3642ce6364fdd9373ecc98d57571d",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Legacy API password user",
+                "system_generated": false
+            }
+        ]
+    },
+    "key": "auth",
+    "version": 1
+}

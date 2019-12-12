@@ -1,0 +1,16 @@
+{
+    "data": {
+        "users": [
+            {
+                "password": "JDJiJDEyJEVUQzg0b2dMLzk1eWhUck53YkZySGVIUjdTN082ZzBFU2ZPc3FtVy96RDhEVFQ0dENUeW02",
+                "username": "mccree"
+            },
+            {
+                "password": "JDJiJDEyJGlGVkR0YUwxcWtsZDBRc0M0RU1jS3VCWTZLeGpMTC5DeEM4YnJ1LjgxS0FDNUhlLlhBYjE2",
+                "username": "mccree2"
+            }
+        ]
+    },
+    "key": "auth_provider.homeassistant",
+    "version": 1
+}

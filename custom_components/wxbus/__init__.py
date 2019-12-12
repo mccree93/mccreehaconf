@@ -1,0 +1,1 @@
+"""The mccree test component."""

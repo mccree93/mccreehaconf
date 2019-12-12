@@ -1,0 +1,50 @@
+{
+    "data": [
+        {
+            "last_seen": "2019-12-12T12:10:54.005656+00:00",
+            "state": {
+                "attributes": {
+                    "altitude": 27,
+                    "battery_level": 100,
+                    "friendly_name": "\u9648\u79e6\u8d5f\u7684 iPhone",
+                    "gps_accuracy": 65,
+                    "latitude": 30.592796340484497,
+                    "longitude": 114.27071414827785,
+                    "source_type": "gps",
+                    "vertical_accuracy": 18
+                },
+                "context": {
+                    "id": "4f3e3cd8aa45460087560aa23b4197a0",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.chen_qin_yun_de_iphone",
+                "last_changed": "2019-12-12T07:10:31.156205+00:00",
+                "last_updated": "2019-12-12T07:10:31.156205+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-12-12T12:10:54.005656+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "mccree",
+                    "id": "ab37d1927cfe437a9e595c5e9d491572",
+                    "user_id": "31c31827823f41d49983cd318d3d3580"
+                },
+                "context": {
+                    "id": "c67734156362400fa61bd4b6f1a1db7c",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.mccree",
+                "last_changed": "2019-12-12T07:10:31.156684+00:00",
+                "last_updated": "2019-12-12T07:10:39.843092+00:00",
+                "state": "unknown"
+            }
+        }
+    ],
+    "key": "core.restore_state",
+    "version": 1
+}

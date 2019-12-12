@@ -1,0 +1,80 @@
+{
+    "data": {
+        "config": {
+            "title": "\u5bb6",
+            "views": [
+                {
+                    "badges": [
+                        {
+                            "entity": "sun.sun"
+                        },
+                        {
+                            "entity": "device_tracker.chen_qin_yun_de_iphone"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "entity": "weather.jia",
+                            "type": "weather-forecast"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.steps"
+                                },
+                                {
+                                    "entity": "sensor.distance"
+                                },
+                                {
+                                    "entity": "sensor.connection_type"
+                                },
+                                {
+                                    "entity": "sensor.floors_ascended"
+                                },
+                                {
+                                    "entity": "sensor.floors_descended"
+                                },
+                                {
+                                    "entity": "sensor.geocoded_location"
+                                },
+                                {
+                                    "entity": "sensor.ssid"
+                                }
+                            ],
+                            "type": "entities"
+                        }
+                    ],
+                    "path": "default_view",
+                    "title": "Home"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.51crowdtonext"
+                                },
+                                {
+                                    "entity": "sensor.51forecaststation"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "theme": "Backend-selected",
+                            "title": "51\u8def \u5b9d\u9f99-\u91d1\u6d77\u91cc",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "sensor.mccree_wxbus",
+                            "type": "sensor"
+                        }
+                    ],
+                    "path": "bus",
+                    "title": "BUS"
+                }
+            ]
+        }
+    },
+    "key": "lovelace",
+    "version": 1
+}
