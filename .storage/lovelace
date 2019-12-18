@@ -1,6 +1,20 @@
 {
     "data": {
         "config": {
+            "resources": [
+                {
+                    "type": "module",
+                    "url": "/local/custom-lovelace/hf_weather-card/hf_weather-card.js"
+                },
+                {
+                    "type": "module",
+                    "url": "/local/custom-lovelace/hf_weather-card/hf_weather-more-info.js"
+                },
+                {
+                    "type": "module",
+                    "url": "/local/custom-lovelace/hf_weather-card/hf_weather-card_new.js"
+                }
+            ],
             "title": "\u5bb6",
             "views": [
                 {
@@ -9,13 +23,45 @@
                             "entity": "sun.sun"
                         },
                         {
-                            "entity": "device_tracker.chen_qin_yun_de_iphone"
+                            "entity": "device_tracker.chen_qin_yun_de_iphone_2"
+                        },
+                        {
+                            "entity": "device_tracker.angie_s_iphone"
                         }
                     ],
                     "cards": [
                         {
-                            "entity": "weather.jia",
-                            "type": "weather-forecast"
+                            "entity": "weather.wx_weather",
+                            "icons": "/local/custom-lovelace/hf_weather-card/icons/animated/",
+                            "mode": "-hourly -daily",
+                            "title": "\u5929\u6c14",
+                            "type": "custom:hf_weather-card"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.steps_2"
+                                },
+                                {
+                                    "entity": "sensor.distance_2"
+                                },
+                                {
+                                    "entity": "sensor.geocoded_location_2"
+                                },
+                                {
+                                    "entity": "sensor.floors_descended_2"
+                                },
+                                {
+                                    "entity": "sensor.floors_ascended_2"
+                                },
+                                {
+                                    "entity": "sensor.ssid_2"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "theme": "Backend-selected",
+                            "title": "Mccree",
+                            "type": "entities"
                         },
                         {
                             "entities": [
@@ -24,9 +70,6 @@
                                 },
                                 {
                                     "entity": "sensor.distance"
-                                },
-                                {
-                                    "entity": "sensor.connection_type"
                                 },
                                 {
                                     "entity": "sensor.floors_ascended"
@@ -41,6 +84,8 @@
                                     "entity": "sensor.ssid"
                                 }
                             ],
+                            "show_header_toggle": false,
+                            "title": "\u7ec6\ud83d\udc38",
                             "type": "entities"
                         }
                     ],

@@ -21,11 +21,25 @@ http:
 tts:
   - platform: google_translate
   
+mobile_app:
+discovery:
+ios:
+sun:
+homekit: 
 
-mccree: 
-  name: 名称
-  #slogon: 
+dlna:
 
+media_player:
+  - platform: xiaomi_tv
+    host: 192.168.2.129
+    name: xiaomi_tv
+    
+weather: 
+ - platform: hf_weather
+   name: wx_weather
+   city: wuxi
+   appkey: d2d940eaed5335dd542593cb4b7141c7
+   
 sensor:
   - platform: rest
     name: 51forecastStation

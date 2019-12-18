@@ -101,148 +101,283 @@
                 "unique_id": "uuid:b6b5874d-bbfb-4b84-a1f2-d07c23976ddd_kbyte/sec_sent"
             },
             {
-                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
-                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "config_entry_id": "85fd0c7892894075842543f606edf8be",
+                "device_id": "eca96f69ce7547f79e3cbc564635fa97",
                 "disabled_by": null,
-                "entity_id": "device_tracker.chen_qin_yun_de_iphone",
+                "entity_id": "device_tracker.chen_qin_yun_de_iphone_2",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "93433857a9964d148425a7a9a1ffa642"
+                "unique_id": "4e1bab9681ea4c209a4c3b55999103e4"
             },
             {
-                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
-                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "config_entry_id": "85fd0c7892894075842543f606edf8be",
+                "device_id": "eca96f69ce7547f79e3cbc564635fa97",
+                "disabled_by": null,
+                "entity_id": "sensor.activity_2",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "f32223bb509f92a603a91bbcde4dfbde32913a913b0ce44203ab0acb50896b54_activity"
+            },
+            {
+                "config_entry_id": "85fd0c7892894075842543f606edf8be",
+                "device_id": "eca96f69ce7547f79e3cbc564635fa97",
+                "disabled_by": null,
+                "entity_id": "sensor.battery_level_2",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "f32223bb509f92a603a91bbcde4dfbde32913a913b0ce44203ab0acb50896b54_battery_level"
+            },
+            {
+                "config_entry_id": "85fd0c7892894075842543f606edf8be",
+                "device_id": "eca96f69ce7547f79e3cbc564635fa97",
+                "disabled_by": null,
+                "entity_id": "sensor.battery_state_2",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "f32223bb509f92a603a91bbcde4dfbde32913a913b0ce44203ab0acb50896b54_battery_state"
+            },
+            {
+                "config_entry_id": "85fd0c7892894075842543f606edf8be",
+                "device_id": "eca96f69ce7547f79e3cbc564635fa97",
+                "disabled_by": null,
+                "entity_id": "sensor.average_active_pace_2",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "f32223bb509f92a603a91bbcde4dfbde32913a913b0ce44203ab0acb50896b54_pedometer_avg_active_pace"
+            },
+            {
+                "config_entry_id": "85fd0c7892894075842543f606edf8be",
+                "device_id": "eca96f69ce7547f79e3cbc564635fa97",
+                "disabled_by": null,
+                "entity_id": "sensor.distance_2",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "f32223bb509f92a603a91bbcde4dfbde32913a913b0ce44203ab0acb50896b54_pedometer_distance"
+            },
+            {
+                "config_entry_id": "85fd0c7892894075842543f606edf8be",
+                "device_id": "eca96f69ce7547f79e3cbc564635fa97",
+                "disabled_by": null,
+                "entity_id": "sensor.floors_ascended_2",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "f32223bb509f92a603a91bbcde4dfbde32913a913b0ce44203ab0acb50896b54_pedometer_floors_ascended"
+            },
+            {
+                "config_entry_id": "85fd0c7892894075842543f606edf8be",
+                "device_id": "eca96f69ce7547f79e3cbc564635fa97",
+                "disabled_by": null,
+                "entity_id": "sensor.floors_descended_2",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "f32223bb509f92a603a91bbcde4dfbde32913a913b0ce44203ab0acb50896b54_pedometer_floors_descended"
+            },
+            {
+                "config_entry_id": "85fd0c7892894075842543f606edf8be",
+                "device_id": "eca96f69ce7547f79e3cbc564635fa97",
+                "disabled_by": null,
+                "entity_id": "sensor.steps_2",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "f32223bb509f92a603a91bbcde4dfbde32913a913b0ce44203ab0acb50896b54_pedometer_steps"
+            },
+            {
+                "config_entry_id": "85fd0c7892894075842543f606edf8be",
+                "device_id": "eca96f69ce7547f79e3cbc564635fa97",
+                "disabled_by": null,
+                "entity_id": "sensor.bssid_2",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "f32223bb509f92a603a91bbcde4dfbde32913a913b0ce44203ab0acb50896b54_connectivity_bssid"
+            },
+            {
+                "config_entry_id": "85fd0c7892894075842543f606edf8be",
+                "device_id": "eca96f69ce7547f79e3cbc564635fa97",
+                "disabled_by": null,
+                "entity_id": "sensor.connection_type_2",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "f32223bb509f92a603a91bbcde4dfbde32913a913b0ce44203ab0acb50896b54_connectivity_connection_type"
+            },
+            {
+                "config_entry_id": "85fd0c7892894075842543f606edf8be",
+                "device_id": "eca96f69ce7547f79e3cbc564635fa97",
+                "disabled_by": null,
+                "entity_id": "sensor.ssid_2",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "f32223bb509f92a603a91bbcde4dfbde32913a913b0ce44203ab0acb50896b54_connectivity_ssid"
+            },
+            {
+                "config_entry_id": "85fd0c7892894075842543f606edf8be",
+                "device_id": "eca96f69ce7547f79e3cbc564635fa97",
+                "disabled_by": null,
+                "entity_id": "sensor.sim_1_2",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "f32223bb509f92a603a91bbcde4dfbde32913a913b0ce44203ab0acb50896b54_connectivity_sim_1"
+            },
+            {
+                "config_entry_id": "85fd0c7892894075842543f606edf8be",
+                "device_id": "eca96f69ce7547f79e3cbc564635fa97",
+                "disabled_by": null,
+                "entity_id": "sensor.sim_2_2",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "f32223bb509f92a603a91bbcde4dfbde32913a913b0ce44203ab0acb50896b54_connectivity_sim_2"
+            },
+            {
+                "config_entry_id": "85fd0c7892894075842543f606edf8be",
+                "device_id": "eca96f69ce7547f79e3cbc564635fa97",
+                "disabled_by": null,
+                "entity_id": "sensor.last_update_trigger_2",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "f32223bb509f92a603a91bbcde4dfbde32913a913b0ce44203ab0acb50896b54_last_update_trigger"
+            },
+            {
+                "config_entry_id": "85fd0c7892894075842543f606edf8be",
+                "device_id": "eca96f69ce7547f79e3cbc564635fa97",
+                "disabled_by": null,
+                "entity_id": "sensor.geocoded_location_2",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "f32223bb509f92a603a91bbcde4dfbde32913a913b0ce44203ab0acb50896b54_geocoded_location"
+            },
+            {
+                "config_entry_id": "3dfcc2a319f541bfa00be22bbd6bbe1f",
+                "device_id": "0572a7cc26bd40e7a1020c7b4709b968",
+                "disabled_by": null,
+                "entity_id": "device_tracker.angie_s_iphone",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "0672210516d3415485e1c156c637711b"
+            },
+            {
+                "config_entry_id": "3dfcc2a319f541bfa00be22bbd6bbe1f",
+                "device_id": "0572a7cc26bd40e7a1020c7b4709b968",
                 "disabled_by": null,
                 "entity_id": "sensor.activity",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_activity"
+                "unique_id": "7a8ac3183e53af587fb02bda608d2cdafa4d74625e8d518308cd5a2d2c891749_activity"
             },
             {
-                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
-                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "config_entry_id": "3dfcc2a319f541bfa00be22bbd6bbe1f",
+                "device_id": "0572a7cc26bd40e7a1020c7b4709b968",
                 "disabled_by": null,
                 "entity_id": "sensor.battery_level",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_battery_level"
+                "unique_id": "7a8ac3183e53af587fb02bda608d2cdafa4d74625e8d518308cd5a2d2c891749_battery_level"
             },
             {
-                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
-                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "config_entry_id": "3dfcc2a319f541bfa00be22bbd6bbe1f",
+                "device_id": "0572a7cc26bd40e7a1020c7b4709b968",
                 "disabled_by": null,
                 "entity_id": "sensor.battery_state",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_battery_state"
+                "unique_id": "7a8ac3183e53af587fb02bda608d2cdafa4d74625e8d518308cd5a2d2c891749_battery_state"
             },
             {
-                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
-                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "config_entry_id": "3dfcc2a319f541bfa00be22bbd6bbe1f",
+                "device_id": "0572a7cc26bd40e7a1020c7b4709b968",
                 "disabled_by": null,
                 "entity_id": "sensor.average_active_pace",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_pedometer_avg_active_pace"
+                "unique_id": "7a8ac3183e53af587fb02bda608d2cdafa4d74625e8d518308cd5a2d2c891749_pedometer_avg_active_pace"
             },
             {
-                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
-                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "config_entry_id": "3dfcc2a319f541bfa00be22bbd6bbe1f",
+                "device_id": "0572a7cc26bd40e7a1020c7b4709b968",
                 "disabled_by": null,
                 "entity_id": "sensor.distance",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_pedometer_distance"
+                "unique_id": "7a8ac3183e53af587fb02bda608d2cdafa4d74625e8d518308cd5a2d2c891749_pedometer_distance"
             },
             {
-                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
-                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "config_entry_id": "3dfcc2a319f541bfa00be22bbd6bbe1f",
+                "device_id": "0572a7cc26bd40e7a1020c7b4709b968",
                 "disabled_by": null,
                 "entity_id": "sensor.floors_ascended",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_pedometer_floors_ascended"
+                "unique_id": "7a8ac3183e53af587fb02bda608d2cdafa4d74625e8d518308cd5a2d2c891749_pedometer_floors_ascended"
             },
             {
-                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
-                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "config_entry_id": "3dfcc2a319f541bfa00be22bbd6bbe1f",
+                "device_id": "0572a7cc26bd40e7a1020c7b4709b968",
                 "disabled_by": null,
                 "entity_id": "sensor.floors_descended",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_pedometer_floors_descended"
+                "unique_id": "7a8ac3183e53af587fb02bda608d2cdafa4d74625e8d518308cd5a2d2c891749_pedometer_floors_descended"
             },
             {
-                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
-                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "config_entry_id": "3dfcc2a319f541bfa00be22bbd6bbe1f",
+                "device_id": "0572a7cc26bd40e7a1020c7b4709b968",
                 "disabled_by": null,
                 "entity_id": "sensor.steps",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_pedometer_steps"
+                "unique_id": "7a8ac3183e53af587fb02bda608d2cdafa4d74625e8d518308cd5a2d2c891749_pedometer_steps"
             },
             {
-                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
-                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "config_entry_id": "3dfcc2a319f541bfa00be22bbd6bbe1f",
+                "device_id": "0572a7cc26bd40e7a1020c7b4709b968",
                 "disabled_by": null,
                 "entity_id": "sensor.bssid",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_connectivity_bssid"
+                "unique_id": "7a8ac3183e53af587fb02bda608d2cdafa4d74625e8d518308cd5a2d2c891749_connectivity_bssid"
             },
             {
-                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
-                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "config_entry_id": "3dfcc2a319f541bfa00be22bbd6bbe1f",
+                "device_id": "0572a7cc26bd40e7a1020c7b4709b968",
                 "disabled_by": null,
                 "entity_id": "sensor.connection_type",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_connectivity_connection_type"
+                "unique_id": "7a8ac3183e53af587fb02bda608d2cdafa4d74625e8d518308cd5a2d2c891749_connectivity_connection_type"
             },
             {
-                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
-                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "config_entry_id": "3dfcc2a319f541bfa00be22bbd6bbe1f",
+                "device_id": "0572a7cc26bd40e7a1020c7b4709b968",
                 "disabled_by": null,
                 "entity_id": "sensor.ssid",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_connectivity_ssid"
+                "unique_id": "7a8ac3183e53af587fb02bda608d2cdafa4d74625e8d518308cd5a2d2c891749_connectivity_ssid"
             },
             {
-                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
-                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
-                "disabled_by": null,
-                "entity_id": "sensor.sim_2",
-                "name": null,
-                "platform": "mobile_app",
-                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_connectivity_sim_2"
-            },
-            {
-                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
-                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "config_entry_id": "3dfcc2a319f541bfa00be22bbd6bbe1f",
+                "device_id": "0572a7cc26bd40e7a1020c7b4709b968",
                 "disabled_by": null,
                 "entity_id": "sensor.sim_1",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_connectivity_sim_1"
+                "unique_id": "7a8ac3183e53af587fb02bda608d2cdafa4d74625e8d518308cd5a2d2c891749_connectivity_sim_1"
             },
             {
-                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
-                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "config_entry_id": "3dfcc2a319f541bfa00be22bbd6bbe1f",
+                "device_id": "0572a7cc26bd40e7a1020c7b4709b968",
                 "disabled_by": null,
                 "entity_id": "sensor.last_update_trigger",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_last_update_trigger"
+                "unique_id": "7a8ac3183e53af587fb02bda608d2cdafa4d74625e8d518308cd5a2d2c891749_last_update_trigger"
             },
             {
-                "config_entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
-                "device_id": "8c36bb400b544ad8b8fd27f8e3d728ab",
+                "config_entry_id": "3dfcc2a319f541bfa00be22bbd6bbe1f",
+                "device_id": "0572a7cc26bd40e7a1020c7b4709b968",
                 "disabled_by": null,
                 "entity_id": "sensor.geocoded_location",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4_geocoded_location"
+                "unique_id": "7a8ac3183e53af587fb02bda608d2cdafa4d74625e8d518308cd5a2d2c891749_geocoded_location"
             }
         ]
     },

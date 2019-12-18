@@ -17,19 +17,6 @@
                 "version": 1
             },
             {
-                "connection_class": "cloud_push",
-                "data": {},
-                "domain": "ios",
-                "entry_id": "9aa55ec0126d4e5bb25cdc3fc121fe2a",
-                "options": {},
-                "source": "user",
-                "system_options": {
-                    "disable_new_entities": false
-                },
-                "title": "Home Assistant iOS",
-                "version": 1
-            },
-            {
                 "connection_class": "local_poll",
                 "data": {
                     "udn": "uuid:b6b5874d-bbfb-4b84-a1f2-d07c23976ddd"
@@ -47,29 +34,95 @@
             {
                 "connection_class": "cloud_push",
                 "data": {
-                    "app_data": {},
+                    "app_data": {
+                        "push_token": "cJqX07n2oAs:APA91bFLPVaGKeoQbq3mVOiruRhCqPp-cIGtob4k1TIf46bjp-rA7XRdCAASyH7nfqfPknfYhAOdkvDHua9J55CjjlbzCbGOlk1T46M_7-acsnw7Tvd_1EmoePwtyfU6bELvDf3et42N",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
                     "app_id": "io.robbie.HomeAssistant",
                     "app_name": "Home Assistant",
                     "app_version": "2.0.0 (69)",
-                    "device_id": "93433857a9964d148425a7a9a1ffa642",
+                    "device_id": "4e1bab9681ea4c209a4c3b55999103e4",
                     "device_name": "\u9648\u79e6\u8d5f\u7684 iPhone",
                     "manufacturer": "Apple",
                     "model": "iPhone X\u0280",
                     "os_name": "iOS",
                     "os_version": "13.1.3",
-                    "secret": "94b3c675c8f4f7b25b1784d0b8f3e942ba099881e4e244f22e188c1c8ca607dd",
+                    "secret": "9288ada7e7464f9c751b292137ad8e74e6f4b9308e828fac8885ea952a1afd47",
                     "supports_encryption": true,
                     "user_id": "4da3642ce6364fdd9373ecc98d57571d",
-                    "webhook_id": "d42db5ddfae3229b416911b5bf4c28b83a36136efc7b92481010a856834e29d4"
+                    "webhook_id": "f32223bb509f92a603a91bbcde4dfbde32913a913b0ce44203ab0acb50896b54"
                 },
                 "domain": "mobile_app",
-                "entry_id": "08ed7b993a3a4782b2e111d8f4c2c698",
+                "entry_id": "85fd0c7892894075842543f606edf8be",
                 "options": {},
                 "source": "registration",
                 "system_options": {
                     "disable_new_entities": false
                 },
                 "title": "\u9648\u79e6\u8d5f\u7684 iPhone",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {},
+                "domain": "ios",
+                "entry_id": "b0a9ad4d7bb74fceb7c0ee51dd8c2236",
+                "options": {},
+                "source": "import",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Home Assistant iOS",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {},
+                    "app_id": "io.robbie.HomeAssistant",
+                    "app_name": "Home Assistant",
+                    "app_version": "2.0.0 (69)",
+                    "device_id": "0672210516d3415485e1c156c637711b",
+                    "device_name": "Angie's iPhone",
+                    "manufacturer": "Apple",
+                    "model": "iPhone X",
+                    "os_name": "iOS",
+                    "os_version": "13.3",
+                    "secret": "c27e887c05dc6474e76219439e6af5fd78633653861c4698468465a283fb5cb4",
+                    "supports_encryption": true,
+                    "user_id": "4da3642ce6364fdd9373ecc98d57571d",
+                    "webhook_id": "7a8ac3183e53af587fb02bda608d2cdafa4d74625e8d518308cd5a2d2c891749"
+                },
+                "domain": "mobile_app",
+                "entry_id": "3dfcc2a319f541bfa00be22bbd6bbe1f",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Angie's iPhone",
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "AccessoryIP": "192.168.2.133",
+                    "AccessoryLTPK": "56fc4bc069db00fbfd13c048941e0dfcdcf70d77d9a2a0056e3242f2db7d05f6",
+                    "AccessoryPairingID": "4A:F1:FE:6A:3B:C9",
+                    "AccessoryPort": 48121,
+                    "Connection": "IP",
+                    "iOSDeviceLTPK": "5f8c4ec4c469e0f26e9c2b125e3c45a896cd6e6ced77516eb4fdd50ab98b936c",
+                    "iOSDeviceLTSK": "99c7f883c98cb9357010d0682ec3f4ce400291f9078f964cfa085bd27b015403",
+                    "iOSPairingId": "6dd14781-9847-4b4c-baa0-48e99637b637"
+                },
+                "domain": "homekit_controller",
+                "entry_id": "75da26485ea2465fa9464a18eaf338b1",
+                "options": {},
+                "source": "zeroconf",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Mi Smart Home Hub-5789",
                 "version": 1
             }
         ]
